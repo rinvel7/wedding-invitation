@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-/*font-family: "Allura", cursive;  
- font-family: "Raleway", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/*font-family: "Nunito", sans-serif;
+font-family: "Dancing Script", cursive;*/
 
 
 
@@ -31,7 +31,7 @@
 .container_text {
     width: 50%;
     margin-top: 22rem;
-    font-family: "Raleway", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 2rem;
     font-weight: 200;
     color: rgb(130, 41, 0);
@@ -39,7 +39,7 @@
 
 .text_special {
     font-size: 80px;
-    font-family: "Allura", cursive;
+    font-family: "Dancing Script", cursive;
     font-weight: lighter;
     color: rgb(130, 41, 0);
 }
