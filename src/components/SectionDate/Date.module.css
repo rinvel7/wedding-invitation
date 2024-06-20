@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Allura", cursive;  
+ font-family: "Raleway", sans-serif;*/
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.background_img_2{
+    width: 40%; 
+    height: auto; 
+    position: absolute;
+    top: 45%;
+    left: 50%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
+.container_text {
+    width: 50%;
+    margin-top: 22rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: rgb(130, 41, 0);
+}
+
+.text_special {
+    font-size: 80px;
+    font-family: "Allura", cursive;
+    font-weight: lighter;
+    color: rgb(130, 41, 0);
+}
