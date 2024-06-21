@@ -1,92 +1,60 @@
-.counts { 
-    position: absolute;
-      top: 830px;
-      left: 0;
-      right: 0;
-    background-color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    padding-bottom: 70px;
-  }
-  
-  #count {
-      display: flex;
-      justify-content: center; 
-      margin-bottom: 50px;
-  }
-  
-  .counts.oculta {
-      transform: translateY(100%);
-  }
-  
-  
-  .text-count h2{
-      font-weight: 700;
-      font-size: 60px;
-      color: #BC4327;
-      text-align: center;
-      margin: 50px;
-  }
-  
-  .simply-section {
-      background:#BC4327;
-      width: 150px;
-      height: 150px;
-      margin: 0 20px;
-    color: #f5ecea;
-      border-radius: 50%;
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Meddon", cursive;
+ font-family: "Roboto Condensed", sans-serif;*/
+
+.timer-container{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+
+.timer {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    color: #822900;
+}
+
+.timer div:first-child{
     text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  .simply-amount {
-      display: block;
-      font-size: 40px;
-      font-weight: 700;
-  }
-  
-  .simply-word {
-      font-weight: 300;
-      font-size: 20px;
-  }
-  
-  
-  @media (max-width: 768px) {
-    .counts{
-      top: 664px;
-    }
-  
-    #count {
-      margin-left: 0;
-    }
-    .simply-section {
-      
-      width: 150px;
-      min-width: 23%;
-      height: 75px;
-      margin: 0 5px;
-      color: #f5ecea;
-      border-radius: 50%;
-    
-    }
-    
-    .simply-amount {
-      display: block;
-      line-height: 0.5;
-      font-size: 24px;
-      font-weight: 700;
+}
+
+
+.timer h2{
+    font-weight: 300;
+    margin: 0.5em;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.timer p{
+    font-weight: 200;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.count {
+    border: 1px solid #822900;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 2em;
+    padding: 3em;
+    text-align: center;  
+}
+
+.count p:first-child, .timer div:last-child span {
+    font-size: 3em;
+}
+
+@media screen and (max-width: 480px) {
+    .timer div:last-child {
+        margin-left:  2em;
+        margin-right: 2em;
+        padding: 3em 1em;
     }
     
-    .simply-word {
-      font-size: 5px;  
-    }
-    .text-count h2{
-      font-size: 34px;
-    }
-  }
-  
+}
