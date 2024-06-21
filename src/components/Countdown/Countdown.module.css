@@ -16,14 +16,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;  
+    text-align: center;
     color: #822900;
 }
-
-.timer div:first-child{
-    text-align: center;
-}
-
 
 .timer h2{
     font-weight: 300;
@@ -32,7 +28,7 @@
 }
 
 .timer p{
-    font-weight: 200;
+    font-weight: 400;
     font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -50,11 +46,23 @@
     font-size: 3em;
 }
 
-@media screen and (max-width: 480px) {
-    .timer div:last-child {
-        margin-left:  2em;
-        margin-right: 2em;
-        padding: 3em 1em;
-    }
+
+
+@media (max-width: 390px) {
     
+.timer h2{
+        font-weight: 200;
+        font-size: 24px;
+    }
+ 
+.count p:first-child, .timer div:last-child span {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.count p:last-child {
+    font-size: 14px; 
+}
+
 }
