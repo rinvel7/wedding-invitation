@@ -4,7 +4,7 @@ font-family: "Dancing Script", cursive;*/
 
 .container_banner{
     width: 100%;
-    height: auto;
+    height: 708px;
     position: relative;
     display: flex;
   }
@@ -22,11 +22,11 @@ font-family: "Dancing Script", cursive;*/
 }
 
 .text_banner{
-    width: 25%;
+    width: 35%;
     line-height: 80px;
-    margin: 320px 0 0 300px ;
+    margin: 300px 0 0 300px ;
     font-size: 80px;
-    font-weight: 200;
+    font-weight: 100;
     font-family: "Dancing Script", cursive;
     color: #fff;
     z-index: 2;
