@@ -1,0 +1,92 @@
+.counts { 
+    position: absolute;
+      top: 830px;
+      left: 0;
+      right: 0;
+    background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    padding-bottom: 70px;
+  }
+  
+  #count {
+      display: flex;
+      justify-content: center; 
+      margin-bottom: 50px;
+  }
+  
+  .counts.oculta {
+      transform: translateY(100%);
+  }
+  
+  
+  .text-count h2{
+      font-weight: 700;
+      font-size: 60px;
+      color: #BC4327;
+      text-align: center;
+      margin: 50px;
+  }
+  
+  .simply-section {
+      background:#BC4327;
+      width: 150px;
+      height: 150px;
+      margin: 0 20px;
+    color: #f5ecea;
+      border-radius: 50%;
+    text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .simply-amount {
+      display: block;
+      font-size: 40px;
+      font-weight: 700;
+  }
+  
+  .simply-word {
+      font-weight: 300;
+      font-size: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .counts{
+      top: 664px;
+    }
+  
+    #count {
+      margin-left: 0;
+    }
+    .simply-section {
+      
+      width: 150px;
+      min-width: 23%;
+      height: 75px;
+      margin: 0 5px;
+      color: #f5ecea;
+      border-radius: 50%;
+    
+    }
+    
+    .simply-amount {
+      display: block;
+      line-height: 0.5;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    
+    .simply-word {
+      font-size: 5px;  
+    }
+    .text-count h2{
+      font-size: 34px;
+    }
+  }
+  

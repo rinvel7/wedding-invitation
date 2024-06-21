@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-/*font-family: "Nunito", sans-serif;
-font-family: "Dancing Script", cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Meddon", cursive;
+ font-family: "Roboto Condensed", sans-serif;*/
+
 
 .container_banner{
     width: 100%;
@@ -24,10 +25,10 @@ font-family: "Dancing Script", cursive;*/
 .text_banner{
     width: 35%;
     line-height: 80px;
-    margin: 300px 0 0 300px ;
-    font-size: 80px;
+    margin: 300px 0 0 200px ;
+    font-size: 60px;
     font-weight: 100;
-    font-family: "Dancing Script", cursive;
+    font-family: "Meddon", cursive;
     color: #fff;
     z-index: 2;
 }

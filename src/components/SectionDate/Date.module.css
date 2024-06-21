@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-/*font-family: "Nunito", sans-serif;
-font-family: "Dancing Script", cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Meddon", cursive;
+ font-family: "Roboto Condensed", sans-serif;*/
 
 
 
@@ -31,7 +31,8 @@ font-family: "Dancing Script", cursive;*/
 .container_text {
     width: 50%;
     margin-top: 22rem;
-    font-family: "Nunito", sans-serif;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 2rem;
     font-weight: 200;
     color: rgb(130, 41, 0);
@@ -39,7 +40,25 @@ font-family: "Dancing Script", cursive;*/
 
 .text_special {
     font-size: 80px;
-    font-family: "Dancing Script", cursive;
+    font-family: "Meddon", cursive;
     font-weight: lighter;
     color: rgb(130, 41, 0);
 }
+
+.day_text {
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+}
+
+.day_number {
+    margin-left: -85px;
+}
+
+.day_number span{
+    padding: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
