@@ -2,13 +2,27 @@
 /* font-family: "Meddon", cursive;
  font-family: "Roboto Condensed", sans-serif;*/
 
-.container{
+.container {
     width: 100%;
-    height:auto;   
+    height: auto;   
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
   }
+  
+.background_img_0 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
 
 .background_img {
     width: 550px;
@@ -33,7 +47,7 @@
     height: auto;
     margin:auto;  
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -41,8 +55,8 @@
 }
 
 .titulo {
-    line-height: 110px;
-    margin-top: 300px ;
+    line-height: 130px;
+    margin-top: 450px ;
     font-weight: 300;
     font-size: 45px;
     font-family: "Meddon", cursive;
@@ -54,82 +68,38 @@
     font-weight: lighter;
 }
 
-/* @media (max-width: 768px) {
-    .background_img {
-        width: 300px;
-        top: -150px;
-        margin-left: -400px;   
-    }
-    .background_img_1 {
-        width: 150px;
-        top: 290px ;
-        margin-right: -450px;   
-    }     
-    .logo {
-        width: 35%; 
-        top: 15%;
-        left: 50%;
-    }   
-    .titulo {
-        left: 0;
-        margin-top: 230px;
-        font-size: 30px;
-        line-height: 70px;
-    }
-} 
-
-@media (max-width: 550px) {
-    .background_img {
-        width: 300px;
-        top: -150px;
-        margin-left: -400px;   
-    }
-    .background_img_1 {
-        width: 150px;
-        top: 290px ;
-        margin-right: -450px;   
-    }     
-    .logo {
-        width: 35%; 
-        top: 15%;
-        left: 50%;
-    }   
-    .titulo {
-        left: 0;
-        margin-top: 230px;
-        font-size: 30px;
-        line-height: 70px;
-    }
-} 
-
-   */
   
 @media (max-width: 390px) {
-    
-.container{
-    margin-bottom: 30px;
-  }
 
-    .background_img {
+
+.background_img_0 {
+        width: 140%;
+        height: 600px;
+    }
+
+.background_img {
         width: 250px;
         top: -145px;
         margin-left: -320px;   
     }
-    .background_img_1 {
-        width: 130px;
-        top: 150px ;
-        margin-right: -320px;   
+
+ .background_img_1 {
+        width: 120px;
+        top: 100px ;
+        margin-right: -360px;   
     }     
-    .logo {
-        width: 48%; 
-        top: 15%;
+    
+.logo {
+        width: 55%; 
+        top: 12%;
         left: 50%;
     }   
-    .titulo {
-        margin-right: -20px;
-        margin-top: 150px;
+    
+.titulo {
+        margin-right: -8px;
+        margin-top: 130px;
         font-size: 18px;
-        line-height: 48px;
+        line-height: 50px;    
     }
 } 
 

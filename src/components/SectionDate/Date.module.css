@@ -19,7 +19,7 @@
 .background_img_2{
     width: 40%; 
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 50%;   
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
     font-size: 80px;
     font-family: "Meddon", cursive;
     font-weight: lighter;
-    color: rgb(130, 41, 0);
+    color:#822900;
 }
 
 .day_text {
