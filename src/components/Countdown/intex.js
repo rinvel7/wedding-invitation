@@ -44,7 +44,7 @@ export default function Countdown(){
         <section className={style.timer_container}>         
                 <div className={style.timer}>   
                     <div>
-                        <h2>Contagem regressiva para um dia verdadeiramente especial!</h2>             
+                        <p>Contagem regressiva para um dia verdadeiramente especial!</p>             
                     </div>
                     <div className={style.count}>
                         <div>

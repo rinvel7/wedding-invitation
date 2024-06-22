@@ -21,14 +21,14 @@
 }
 
 
-@media (max-width: 390px) {
+
+@media (max-width: 375px) {
   .container{
     height: 350px;
   
   }
 
   .background_img {
-    width: 150%;
     height: 550px;
     top: 200px;
     left: -50px;

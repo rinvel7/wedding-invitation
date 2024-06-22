@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 
 import Header from "@/components/Header";
-import Banner from "@/components/SectionBanner";
 import Date from "@/components/SectionDate";
 import Information from "@/components/SectionInformation";
 
@@ -10,8 +9,7 @@ import Information from "@/components/SectionInformation";
 export default function Home() {
   return (
     <main className={styles.main}>
-           <Header /> 
-           <Banner /> 
+           <Header />  
            <Date /> 
            <Information />  
     </main>

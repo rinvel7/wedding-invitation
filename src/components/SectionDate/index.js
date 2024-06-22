@@ -9,13 +9,13 @@ import Calendar from "../../../public/assets/calendar.png"
 export default function Date() {
     return(
         <section className={style.container}>
-             <Image className={style.background_img_2} src={Flower2t} alt="image-of-flower"/>
+             <Image className={style.background_flower2} src={Flower2t} alt="image-of-flower"/>
             <div className={style.container_text}>
             <p>Esperamos que você esteja presente neste dia que tanto</p>  
             <span className={style.text_special}>sonhamos</span>   
             <p className={style.day_text}>SABADO</p>
             <p className={style.day_number}>Setembro
-                <span>.<Image className={style.calendar_img} src={Calendar} />.</span>
+                <span>.<Image className={style.calendar_img} src={Calendar} alt="calendary" />.</span>
                 2024</p>
             </div>
             <Countdown />

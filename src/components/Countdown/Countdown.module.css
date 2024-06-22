@@ -4,7 +4,7 @@
 
 .timer-container{
     width: 100%;
-    height: 100vh;
+    height: auto;
     color: #fff;
 }
 
@@ -13,6 +13,7 @@
     width: 100%;
     height: 100%;
     padding: 0.5em;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,15 +22,11 @@
     color: #822900;
 }
 
-.timer h2{
-    font-weight: 300;
-    margin: 0.5em;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
 .timer p{
-    font-weight: 400;
+    font-weight: 200;
+    font-size: 30px;
     font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 20px;
 }
 
 .count {
@@ -37,31 +34,56 @@
     border-radius: 3px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin-top: 2em;
     padding: 3em;
     text-align: center;  
 }
 
 .count p:first-child, .timer div:last-child span {
     font-size: 3em;
+    font-weight: 400;
 }
 
 
-
-@media (max-width: 390px) {
+@media (max-width: 768px) {
+    .timer-container{
+        height: 300px;
+    }
     
-.timer h2{
+    .timer p{
+            font-weight: 200;
+            font-size: 30px;
+        }
+        
+    .count {    
+        padding: 50px ;
+        margin-top: 2em;     
+        }
+    
+    .count p:first-child, .timer div:last-child span {
+        font-size: 40px;
+        font-weight: 400;
+    
+    }
+    
+    .count p:last-child {
+        font-size: 20px; 
+    }
+    
+}
+
+
+@media (max-width: 375.11px) {
+    
+.timer p{
         font-weight: 200;
-        font-size: 24px;
+        font-size: 23px;
     }
     
 .count {    
-    padding: 50px ;
+    padding: 20px ;
     margin-top: 1em;     
     }
 
-
- 
 .count p:first-child, .timer div:last-child span {
     font-size: 30px;
     font-weight: 400;
