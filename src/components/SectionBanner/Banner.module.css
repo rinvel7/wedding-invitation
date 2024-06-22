@@ -8,7 +8,7 @@
     height: 708px;
     position: relative;
     display: flex;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
   }
 
 .background_img{
@@ -39,6 +39,7 @@
 @media (max-width: 390px) {
   .container_banner{
     height: 375px;
+    margin-bottom: 100px;
   
   }
 
