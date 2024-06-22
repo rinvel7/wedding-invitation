@@ -54,6 +54,13 @@
         font-weight: 200;
         font-size: 24px;
     }
+    
+.count {    
+    padding: 50px ;
+    margin-top: 1em;     
+    }
+
+
  
 .count p:first-child, .timer div:last-child span {
     font-size: 30px;
