@@ -12,14 +12,14 @@ export default function Header(){
     return (
         <header className={style.container}>
             <Image className={style.background_img_rings} src={Rings} alt="people-hug" priority={true}/>
-            <Image className={style.img_flower3} src={Flower3} alt="flowers" />
+            {/* <Image className={style.img_flower3} src={Flower3} alt="flowers" /> */}
             <Image className={style.logo} src={Logo} alt="logo-victor-rina"/>
             <div className={style.titulo}>  
             <h2>Victor</h2>
             <h3>&</h3>
             <h2>Rina</h2>
             </div>       
-            <Image className={style.img_flower4} src={Flower4} alt="flower"/>     
+            {/* <Image className={style.img_flower4} src={Flower4} alt="flower"/>      */}
             <div  className={style.container_text}>
             <div className={style.text}>
                 <p>O momento chegou, e queremos que você faça parte do nosso doce começo!</p>
