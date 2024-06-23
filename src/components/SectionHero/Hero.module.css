@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Meddon", cursive;
+ font-family: "Roboto Condensed", sans-serif;*/
+
+.container{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    display: flex;
+  }
+
+.container::before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+    z-index: -1;
+}
+
+.background_rings{
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.text{
+    width: 100%;
+    line-height: 80px;
+    padding: 200px;
+    margin-top: 1000px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: "Meddon", cursive;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    
+.container{
+    height: 152vh;
+
+  }
+
+.container::before {
+    height: 50vh;
+}
+
+.background_rings{
+    margin-top: 50px;
+    height: 60vh;
+
+}
+
+.text{
+    line-height: 30px;
+    padding: 25px;
+    margin-top: 310px;
+    font-size: 16px; 
+}
+}
