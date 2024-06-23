@@ -45,18 +45,27 @@
 
 
 @media (max-width: 768px) {
+ 
+
     .timer-container{
         height: 300px;
     }
     
+.timer {
+    padding: 1em;
+    margin-top: 10px;
+   
+}
+
     .timer p{
             font-weight: 200;
-            font-size: 30px;
+            font-size: 20px;
+            margin-bottom: 10px;
         }
         
     .count {    
-        padding: 50px ;
-        margin-top: 2em;     
+        padding: 30px ;
+        margin-top: 1em;     
         }
     
     .count p:first-child, .timer div:last-child span {
@@ -66,32 +75,7 @@
     }
     
     .count p:last-child {
-        font-size: 20px; 
+        font-size: 14px; 
     }
     
-}
-
-
-@media (max-width: 375.11px) {
-    
-.timer p{
-        font-weight: 200;
-        font-size: 23px;
-    }
-    
-.count {    
-    padding: 20px ;
-    margin-top: 1em;     
-    }
-
-.count p:first-child, .timer div:last-child span {
-    font-size: 30px;
-    font-weight: 400;
-
-}
-
-.count p:last-child {
-    font-size: 14px; 
-}
-
 }

@@ -71,24 +71,30 @@
 @media (max-width: 768px) {
     
 .container{
-    height: 400px;
+    height: 270px;
 }
 
 
 .background_flower2{
-        width: 80%; 
-        height: 150px;
+        width: 70%; 
+        height: 80px;
         top: -620px;
     }
 
     .container_text {
-        margin-top: -25rem;
-        font-size: 30px;    
+        width: 90%;
+        margin-top: -750px;
+        font-size: 20px;    
     }
 
+    .text_special {
+        font-size: 50px;
+       
+    }
+    
    
     .day_text {
-        font-size: 60px;
+        font-size: 40px;
         margin-bottom: 30px;
     }
     .day_number {
@@ -97,7 +103,7 @@
 
     .calendar_img{
         width: 18%;
-        height: 130px;
+        height: 80px;
     }
 }
 

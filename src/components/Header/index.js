@@ -16,7 +16,7 @@ export default function Header(){
             <Image className={style.logo} src={Logo} alt="logo-victor-rina"/>
             <div className={style.titulo}>  
             <h2>Victor</h2>
-            <h2>&</h2>
+            <h3>&</h3>
             <h2>Rina</h2>
             </div>       
             <Image className={style.img_flower4} src={Flower4} alt="flower"/>     
