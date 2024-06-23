@@ -48,12 +48,12 @@
 @media (max-width: 768px) {
     
 .container{
-    height: 152vh;
+    height: 138vh;
 
   }
 
 .container::before {
-    height: 50vh;
+    height: 360px;
 }
 
 .background_rings{
@@ -63,6 +63,7 @@
 }
 
 .text{
+    height: 20px;
     line-height: 30px;
     padding: 25px;
     margin-top: 450px;
